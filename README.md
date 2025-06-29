@@ -216,11 +216,10 @@ git push origin main
 ```
 
 > Go to GitHub → **Actions tab** → You’ll see your workflow running 🎉
-![actions performed][assets/actions.png]
+![actions performed](assets/actions.png)
+![actions preview](assets/actions2.png)
+![docker](assets/docker.png)
 
-![actions preview][assets/actions2.png]
-
-![docker][assets/docker.png]
 
 ---
 
