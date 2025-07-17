@@ -4,7 +4,7 @@ This project demonstrates a complete CI/CD pipeline for a Node.js app using **Gi
 
 ---
 
-## 🧱 Prerequisites
+## 🯡 Prerequisites
 
 * Node.js & npm installed
 * Docker Desktop installed
@@ -142,8 +142,8 @@ git push -u origin main
 
 ## 🔐 Set GitHub Secrets
 
-1. Go to your GitHub repo → `Settings > Secrets and variables > Actions`
-2. Click `New repository secret` and add:
+1. Go to your GitHub repo → **Settings > Secrets and variables > Actions**
+2. Click **New repository secret** and add:
 
    * `DOCKER_USERNAME` → Your Docker Hub username
    * `DOCKER_PASSWORD` → Your Docker Hub password or access token
@@ -216,10 +216,9 @@ git push origin main
 ```
 
 > Go to GitHub → **Actions tab** → You’ll see your workflow running 🎉
-![actions performed](assets/actions.png)
-![actions preview](assets/actions2.png)
-![docker](assets/docker.png)
-
+> ![actions performed](assets/actions.png)
+> ![actions preview](assets/actions2.png)
+> ![docker](assets/docker.png)
 
 ---
 
@@ -227,3 +226,11 @@ git push origin main
 
 Check your [Docker Hub repository](https://hub.docker.com/repositories) to see the image `ci-cd-node-app` pushed automatically.
 
+---
+
+## 🛠️ Jenkins Version
+
+If you want a **Jenkins CI/CD pipeline** version of this project, get it here:
+👉 **[Jenkins CI/CD Pipeline Repo](https://github.com/TejeshKumarGantyada/4-cicd-pipeline-with-jenkins)**
+
+---
